@@ -1,9 +1,9 @@
-var translateButton = document.querySelector("#translator");
+var translateButton = document.querySelector("#language-button");
 translateButton.addEventListener("click", buttonClickHandler)
-var translateInput = document.querySelector("#dothrak-input");
-var translateOutput = document.querySelector("#dothrak-output");
+var translateInput = document.querySelector("#yoda-input");
+var translateOutput = document.querySelector("#yoda-output");
 
-var url = "https://api.funtranslations.com/translate/dothraki.json"
+var url = "https://api.funtranslations.com/translate/yoda.json"
 
 
 function buttonClickHandler(event) {
@@ -19,3 +19,4 @@ function buttonClickHandler(event) {
 
         .catch(() => alert("some error occured"))
 }
+
