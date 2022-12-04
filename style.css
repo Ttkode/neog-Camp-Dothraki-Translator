@@ -1,0 +1,55 @@
+body {
+    background-color: #fee2e2;
+}
+
+.navigation {
+    background-color: #a8a29e;
+}
+
+.navigation .dothrak {
+   text-align: center;
+   font-size: 2rem;
+   font-weight: bold;
+   padding: 2rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: italic;
+
+}
+
+main {
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 1rem;
+    font-size: medium;
+    text-align: center;
+    display: block;
+}
+
+button {
+    background-color: #e5e7eb;
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+}
+
+
+
+footer {
+    background-color: #a8a29e ;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+
+}
+
