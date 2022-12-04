@@ -27,7 +27,7 @@ textarea {
     width: 100%;
     min-height: 20vh;
     margin-top: 1rem;
-    font-size: medium;
+    font-size: larger;
     text-align: center;
     display: block;
 }
@@ -40,6 +40,15 @@ button {
     font-weight: bold;
     font-size: medium;
     font-style: italic;
+}
+
+#dothrak-output {
+    box-sizing: border-box;
+    width: 100%b;
+    min-height: 20vh;
+    padding: 1rem;
+    font-size: large;
+    border: 1px solid black;
 }
 
 
